@@ -1,6 +1,7 @@
 const discord = require("discord.js");
 const bot = new discord.Client();
 const postfix = '!';
+const key = 'NTU1MDY3MzQwNjUyNTQ0MDAy.D2vlVg.7Fdh9E6eoBBummd89zC6pB8WIZ8';
 bot.on('ready' , () =>{
     console.log('m ready')
     console.log(Math.random())
@@ -70,4 +71,4 @@ bot.on("message", msg => {
     }
 );
 
-bot.login(process.env.key)
+bot.login(key)
