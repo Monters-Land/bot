@@ -70,4 +70,4 @@ bot.on("message", msg => {
     }
 );
 
-bot.login(key)
+bot.login(process.env.key)
