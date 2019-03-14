@@ -1,6 +1,5 @@
 const discord = require("discord.js");
 const bot = new discord.Client();
-const key = "NTU1MDY3MzQwNjUyNTQ0MDAy.D2vlVg.7Fdh9E6eoBBummd89zC6pB8WIZ8";
 const postfix = '!';
 bot.on('ready' , () =>{
     console.log('m ready')
